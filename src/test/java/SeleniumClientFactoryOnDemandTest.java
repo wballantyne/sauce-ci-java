@@ -22,12 +22,12 @@ public class SeleniumClientFactoryOnDemandTest {
      */
     @Before
     public void setUp() throws Exception {
-        webDriver = SeleniumFactory.createWebDriver();
+        // webDriver = SeleniumFactory.createWebDriver();
     }
 
     @After
     public void tearDown() throws Exception {
-        webDriver.quit();
+        // webDriver.quit();
     }
 
     /**
